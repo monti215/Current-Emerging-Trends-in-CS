@@ -123,6 +123,7 @@ def qtrain(model, maze, **opt):
     hsize = qmaze.maze.size//2   # history window size
     win_rate = 0.0
     
+##Q-Training Algorithm##
 
     for epoch in range(n_epoch):
         # Step 1: Reset environment and agent's starting position
